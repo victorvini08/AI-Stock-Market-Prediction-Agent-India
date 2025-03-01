@@ -1,0 +1,10 @@
+duckduckgo_search==7.4.4
+langchain-community==0.3.18
+langchain-core==0.3.37
+langchain-groq==0.2.4
+langchain-openai==0.3.6
+langgraph==0.2.74
+pandas_ta==0.3.14b0
+yfinance==0.2.54
+transformers==4.49.0
+torch==2.6.0
