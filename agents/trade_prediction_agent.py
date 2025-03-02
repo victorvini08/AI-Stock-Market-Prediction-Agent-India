@@ -8,7 +8,7 @@ def trade_prediction_agent(state: State):
     tickers = state["data"]["tickers"]
     analyst_signals = state["data"]["analyst_signals"]
     portfolio = state["data"]["portfolio"]
-    groq_api_key = "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";
+    groq_api_key = ""; # Put your groq api key here
     llm = ChatGroq(
     api_key=groq_api_key,
     model="mixtral-8x7b-32768",
