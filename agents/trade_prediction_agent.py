@@ -519,7 +519,7 @@ def trade_prediction_agent(state: State):
     predictions = {}
     
     # Setup LLM with consistent parameters
-    groq_api_key = "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"
+    groq_api_key = ""
     
     # Create LLM with temperature 0.1 for slight creativity but mostly consistent outputs
     llm = ChatGroq(
